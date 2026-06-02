@@ -1,3 +1,9 @@
+
+data/edusystem.db
+data/kuzu_db/
+data/learner_graph/
+data/markdown_cache/
+logs/
 .env
 __pycache__/
 *.pyc
