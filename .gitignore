@@ -10,3 +10,4 @@ __pycache__/
 data/
 .venv/
 kuzu_db/
+.vscode/

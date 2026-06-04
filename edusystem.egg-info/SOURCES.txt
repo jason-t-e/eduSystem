@@ -22,6 +22,7 @@ config/streams/commerce_11/dependency_graph.json
 config/streams/commerce_11/metadata.json
 config/streams/commerce_11/misconceptions.json
 config/streams/commerce_11/syllabus.json
+core/logging.py
 core/database/models.py
 core/database/session.py
 core/database/repositories/base.py
