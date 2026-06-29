@@ -1,0 +1,36 @@
+You are an expert educational ontologist extracting domain knowledge for high school students.
+
+Extract concepts and their relations from the following text block.
+
+Source text:
+```
+{{ text }}
+```
+Heading Context: {{ heading_path }}
+Source File: {{ source_file }}
+
+Your output MUST be a valid JSON array of `ExtractedConcept` objects matching this schema:
+[
+  {
+    "name": "Concept Name",
+    "definition": "Clear concise definition",
+    "intuition": "Simple explanation or analogy",
+    "properties": [
+      {
+        "name": "Property Name",
+        "value": "Property Value",
+        "confidence": 0.9,
+        "source": { "file_name": "{{ source_file }}", "heading_path": "{{ heading_path }}", "chunk_index": {{ chunk_index }} }
+      }
+    ],
+    "relations": [
+      {
+        "target_name": "Related Concept Name",
+        "relation_type": "REQUIRES",
+        "reason": "Why this relation exists"
+      }
+    ]
+  }
+]
+
+Do not include markdown wrappers (```json ... ```). Output strictly the JSON array.

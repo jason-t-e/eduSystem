@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "bookkeeping": "Bookkeeping",
+    "book keeping": "Bookkeeping",
+    "accounting": "Accounting",
+    "accountancy": "Accounting",
+    "assets": "Asset",
+    "asset": "Asset",
+    "liabilities": "Liability",
+    "liability": "Liability"
+  }
+}
