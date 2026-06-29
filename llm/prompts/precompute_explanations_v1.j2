@@ -1,0 +1,16 @@
+Given the definition and properties of a concept, generate 5 distinct levels of explanation.
+
+Concept Name: {{ name }}
+Definition: {{ definition }}
+Intuition: {{ intuition }}
+
+Your output must be a valid JSON object matching this schema:
+{
+  "analogy": "A relatable analogy using everyday objects.",
+  "layman": "A simple explanation without jargon.",
+  "student": "A standard high-school textbook explanation.",
+  "expert": "A precise, technical explanation suitable for an academic or professional.",
+  "math": "An explanation focusing on mathematical representations or formulas, if applicable. If none, write 'N/A'."
+}
+
+Do not include markdown wrappers. Output strictly the JSON object.
